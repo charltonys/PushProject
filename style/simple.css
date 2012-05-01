@@ -1,0 +1,95 @@
+.bodypart {
+	background-color: #aaaaaa;
+}
+
+.trunk { 
+	width:100px; 
+	height:40px; 
+	margin:2px; 
+}
+
+.arms { 
+	width:100px; 
+	height:40px; 
+	margin:2px; 
+}
+
+.fingers { 
+	width:100px; 
+	height:40px; 
+	margin:2px; 
+}
+
+#man_diagram{
+	float: left;
+	padding-left: 10%;
+}
+
+.legs { 
+	width:100px; 
+	height:40px; 
+	margin:2px; 
+}
+
+#interactive_man {
+	min-width: 
+}
+
+#hello_greeting {
+	font-size: 20pt;
+	color: black;
+}
+
+#function_menu {	
+	display: none;
+}
+
+#hidden_form_field {
+}
+			
+.funcbox {
+	border-radius: 15px;
+	width:400px; 
+	height:50px; 
+	padding: 20px 30px 30px 30px;
+	margin-bottom: 20px;
+	cursor: hand; 
+	cursor: pointer; 
+}	
+
+
+#fillerbox {
+	float: left;
+	width: 40px;
+}
+	
+
+#basic_info {
+/*	font-size: 30pt;*/
+	display: none;
+}
+
+.input_text {
+}
+
+.prog_button {
+	font-size: 30pt;
+	color: white;
+}
+
+.func_button {
+	font-size: 40pt;
+	color: white;
+}
+
+.full_func {
+	background:#009900; 
+}
+
+.partial_func {
+	background:#ffcc00; 
+}
+
+.no_func {
+	background:#ff6600; 
+}

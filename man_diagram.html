@@ -1,0 +1,102 @@
+
+<div class="container_12">
+    <div class="clear"></div>
+	  <div class="grid_4">
+		<div style="width: 300px; height: 800px; padding-left: 26px;">
+			<div style="background-color: #659c46;width:238px; height:120px;"><img src="images/man_diagram/p1.png" style=""></div>
+			<div class="bodypart arms" title="arms" style="background-color: #aaaaaa; width:54px; height:193px; float: left;"><img src="images/man_diagram/p2.png"></div>
+			<div class="bodypart trunk" title="trunk" style="background-color: #aaaaaa; width:132px; height:248px; float: left;"><img src="images/man_diagram/p3.png"></div>
+			<div class="bodypart arms" title="arms" style="background-color: #aaaaaa; width:54px; height:192px; float: left; clear: right;"><img src="images/man_diagram/p4.png"></div>
+			<div class="bodypart fingers" title="fingers" style="background-color: #aaaaaa; clear: left; float: left;width: 54px; height: 54px; position: relative; top: -54px;"><img src="images/man_diagram/p5.png" ></div>
+			<div class="bodypart legs" title="legs" style="background-color: #aaaaaa; float: left; width:131px; height: 270px;"><img src="images/man_diagram/p6.png"></div>
+			<div class="bodypart fingers" title="fingers" style="background-color: #aaaaaa; float: left; width: 54px; height: 54px; position: relative; top: -54px; left: 1px;"><img src="images/man_diagram/p7.png"></div>
+		</div>
+    </div>
+	<div class="grid_8" id="hello_greeting">
+    <h3>Hello!</h3>
+		<p id="greeting">Please tell us a little about yourself. What are your abilities? Just click on the person to the left to get started.</p>		
+		<p>Once you're done, continue onward to save your information and begin your journey with other people like you.</p>
+	</div>
+	
+    <div class="grid_8" id="function_menu">
+<h3 id="cur_bp"></h3>
+	<ul id="options">
+		<a href="#" class="full_func"><li>Full Function</li></a>
+		<a href="#" class="partial_func"><li>Partial Function</li></a>
+		<a href="#" class="no_func"><li>No Function</li></a>
+	</ul>
+</div>
+	
+	<div class="grid_8" id="basic_info">
+                <h3>Signup</h3>
+			<p id="greeting" align="left">Please enter your name and email
+            </p>
+            <input class="input_text" type="text" name="name" placeholder="name"></p>
+			<p align="left"><input class="input_text" type="text" name="email" placeholder="example@mail.com"></p>
+			<p align="left"><input class="input_text" type="text" name="doi" placeholder="MM/DD/YYYY">MM/DD/YYYY</p>
+			<div style="hidden">
+				<p align="left"> Relationship to injured: </p>
+				<p>
+					<select class="input_text" size="1" name="relationship">
+						<option selected value="1">Injured</option>
+						<option value="2">Family</option>
+						<option value="3">Friend</option>
+						<option value="4">Spouse</option>
+					</select>
+				</p>
+			</div>
+	</div>
+
+	<div class="grid_8" id="my_story">
+                <h3>My Story</h3>
+			<p id="greeting" align="left">My injury and recovery.</p>
+            	<textarea class="input_text" name="injury_and_recovery" cols=60 rows=10 placeholder="Share the story of your injury and recovery!"></textarea>
+			<p align="left">My most blissful moments</p>
+			    <textarea class="input_text" name="most_blissful" cols=60 rows=5 placeholder="When I..."></textarea>
+			<p align="left">My most challenging moments </p>
+			    <textarea class="input_text" name="most_challenging" cols=60 rows=5 placeholder="It's been difficult..."></textarea>
+	</div>
+	
+	<div class="grid_8" id="connect_with_me">
+                <h3>Connecting With Me</h3>
+			<p id="greeting" align="left">I love talking about these things. Ask me about 'em!</p>
+            	<textarea class="input_text" name="connect" cols=60 rows=10 placeholder="having a disability in college, cooking, career advice"></textarea>
+	</div>
+	
+	<ul id="next">
+				<a href="#" id="backbox"><li>Back</li></a>
+   				<a href="#" id="continuebox"><li>Continue</li></a>
+   				<a href="javascript: submitRegistration()" id="submitbox"><li>Complete Signup</li></a>
+	</ul> 
+	
+	<div class="grid_8" id="hidden_form_field">
+			<!--<input type="hidden" size="1" name="trunk_func"> -->
+			<select class="input_text" size="1" name="trunk_func">
+				<option selected value="0">No</option>
+				<option value="1">Partial</option>
+				<option value="2">Full</option>
+			</select>
+			<!--<input type="hidden" size="1" name="arms_func"> -->
+			<select class="input_text" size="1" name="arms_func">
+				<option selected value="0">No</option>
+				<option value="1">Partial</option>
+				<option value="2">Full</option>
+			</select>
+			<!--<input type="hidden" size="1" name="fingers_func"> -->
+			<select class="input_text" size="1" name="fingers_func">
+				<option selected value="0">No</option>
+				<option value="1">Partial</option>
+				<option value="2">Full</option>
+			</select>	
+			<!--<input type="hidden" size="1" name="legs_func"> -->
+			<select class="input_text" size="1" name="legs_func">
+				<option selected value="0">No</option>
+				<option value="1">Partial</option>
+				<option value="2">Full</option>		
+			</select>		
+	</div>
+	
+			
+                
+
+</div>

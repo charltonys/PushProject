@@ -1,0 +1,250 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  background-color: #efefef;
+  font-size: 11px;
+  height: auto;
+  padding-bottom: 0;
+}
+
+a { 
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  margin-bottom: 0;
+  position: relative;
+  top: 4px;
+  text-align: left;
+  color: #3e3e3e;
+}
+
+h2 {
+  padding-top: 20px;
+  text-align: left;
+}
+
+h3{
+   font-size: 32px; 
+   margin-top: 80px;
+   margin-bottom: 0;
+   border-bottom: 1px solid #888;
+   text-transform: capitalize;
+}
+
+p {
+/*  border: 1px solid #666;*/
+  overflow: hidden;
+  padding: 10px 0;
+  text-align: left;
+  font-size: 24px;
+  color: #444;
+}
+
+.container_12,
+.container_16,
+.container_24 {
+  /*background-color: #fff;*/
+  background-repeat: repeat-y;
+  margin-bottom: 20px;
+}
+
+.container_12 {
+ /* background-image: url(../img/12_col.gif);*/
+}
+
+.container_16 {
+  background-image: url(../img/16_col.gif);
+}
+
+.container_24 {
+  background-image: url(../img/24_col.gif);
+}
+
+#menu {
+  text-align: right; 
+  padding-top: 13px; 
+  font-size: 13px;
+}
+
+#menu li {
+  margin-left: 0;
+}
+
+#menu a:link {
+  padding: 15px 13px 9px 13px;
+  margin: 0;
+}
+
+#menu a:hover {
+   background-color: #656565;
+}
+
+#greeting {
+   border-top: 1px solid #fff;
+   padding-top: 5px;
+}
+
+/*Buttons for selecting Ability*/
+
+#options {
+   color: #e1e1e1;
+   border-top: 1px solid #fff;
+   padding-top: 5px;
+}
+ul#options {
+   width: 226px;
+}
+#options li {
+   font-size: 18px;
+   list-style-type: none;
+   text-indent: 50px;
+   width: 220px;
+   margin: 10px 0;
+   padding: 10px 0;
+  -moz-border-radius: 12px;
+   border-radius: 12px;
+   border: 3px solid #fefefe;
+}
+
+a.full_func:link li{
+  background-color: #4e7a35;
+} 
+a.full_func:visited li{
+  background-color: #4e7a35;
+} 
+a.full_func:hover li{
+  background-color: #659c46;
+} 
+
+
+a.partial_func:link li{
+  background-color: #d29d33;
+}
+a.partial_func:visited li{
+  background-color: #d29d33;
+}
+a.partial_func:hover li{
+  background-color: #fdc643;
+}
+
+a.no_func:link li{
+  background-color: #ad3d15;
+}
+a.no_func:visited li{
+  background-color: #ad3d15;
+}
+a.no_func:hover li{
+  background-color: #da4f1e;
+
+}
+
+/*End Ability option buttons*/
+/*Next or Cancel Buttons*/
+
+#next li {
+   font-size:18px;
+   list-style-type:none;
+   margin:10px 5px;
+ -moz-border-radius:12px;
+   border-radius: 12px;
+   float:left;
+}
+
+a#backbox:link li{
+   border:3px solid #aaa;
+   color:#aaa;
+   width: 100px;
+   padding: 10px 0;
+   text-indent:24px;
+}
+a#backbox:visited li{
+   color: #aaa;
+   border-color: #aaa;
+}
+a#backbox:hover li{
+   color:#888;
+   border:3px solid #888;
+}
+
+
+
+a#continuebox:link li{
+   text-indent: 14px;
+   background-color: #333;
+   border:3px solid #fefefe;
+   width: 100px;
+   padding: 10px 0 10px;
+}
+a#continuebox:visited li{
+   color: #fff;
+   border-color: #fff;
+}
+a#continuebox:hover li{
+   text-indent: 14px;
+   background-color: #444;
+   width: 105px;
+   border:3px solid #ccc;
+   width: 102px;
+   padding: 10px 0px;
+
+}
+
+a#submitbox:link li {
+   text-indent: 14px;
+   background-color: #333;
+   border:3px solid #fefefe;
+   width: 180px;
+   padding: 10px 0 10px;
+}
+a#submitbox:visited li{
+   color: #fff;
+   border-color: #fff;
+}
+a#submitbox:hover li {
+   text-indent: 14px;
+   background-color: #444;
+   border:3px solid #ccc;
+   width: 180px;
+   padding: 10px 0;
+}
+
+/*End Next or Cancel buttons*/
+/*Form Field Styles*/
+input {
+	font-size: 20px;
+	width: 300px;
+	height: 40px;
+    -moz-border-radius: 12px;
+   border-radius: 12px;
+   border: 1px solid #666;
+}
+input::-webkit-input-placeholder {color: #bbb;}
+input:-moz-placeholder{color:#bbb;}
+select {
+	font-size: 20px;
+	width: 300px;
+	height: 40px;
+    -moz-border-radius: 12px;
+   border-radius: 12px;
+}
+
+/*End Form Field Styles*/
+/*Hidden Form Field*/
+#hidden_form_field{
+   display: none;
+}
+
+footer {
+   background-color: #333333; 
+   height: 40px; 
+   width: 100%;
+   padding-top: 16px;
+}
