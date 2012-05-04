@@ -6,6 +6,11 @@ function submitRegistration() {
 	document.forms["registration_form"].submit();
 }
 
+function submitLogin() {
+	document.forms["login_form"].submit();
+}
+
+
 function setBodyPartColor(bp, func_level) {
 	if (func_level == 0) {
 		$("."+bp).css('background', '#da4f1e');

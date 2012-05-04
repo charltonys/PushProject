@@ -29,14 +29,25 @@
 	
 	<div class="grid_8" id="basic_info">
                 <h3>Signup</h3>
-			<p id="greeting" align="left">Please enter your name and email
-            </p>
+			<p id="greeting" align="left">Name</p>
             <input class="input_text" type="text" name="name" placeholder="name"></p>
+			
+			<p id="greeting" align="left">Email</p>
 			<p align="left"><input class="input_text" type="text" name="email" placeholder="example@mail.com"></p>
-			<p align="left"><input class="input_text" type="text" name="doi" placeholder="MM/DD/YYYY">MM/DD/YYYY</p>
+			
+			<p id="greeting" align="left">Password</p>
+			<p align="left"><input class="input_text" type="password" name="password" placeholder=""></p>
+			
+			<p id="greeting" align="left">Confirm Password</p>
+			<p align="left"><input class="input_text" type="password" name="confirm_password" placeholder=""></p>
+	
+	</div>
+
+	<div class="grid_8" id="my_story">
+        	<h3>My Story</h3>
+
 			<div style="hidden">
-				<p align="left"> Relationship to injured: </p>
-				<p>
+				<p align="left"> Relationship to injured: 
 					<select class="input_text" size="1" name="relationship">
 						<option selected value="1">Injured</option>
 						<option value="2">Family</option>
@@ -44,11 +55,14 @@
 						<option value="4">Spouse</option>
 					</select>
 				</p>
+				
+			        			
+			<p id="greeting" align="left">Date of Injury: 
+			<input class="input_text" type="text" name="doi" placeholder="MM/DD/YYYY">MM/DD/YYYY
+			</p>
+				
 			</div>
-	</div>
-
-	<div class="grid_8" id="my_story">
-                <h3>My Story</h3>
+			
 			<p id="greeting" align="left">My injury and recovery.</p>
             	<textarea class="input_text" name="injury_and_recovery" cols=60 rows=10 placeholder="Share the story of your injury and recovery!"></textarea>
 			<p align="left">My most blissful moments</p>

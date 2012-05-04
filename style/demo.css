@@ -204,6 +204,7 @@ a#submitbox:link li {
    width: 180px;
    padding: 10px 0 10px;
 }
+
 a#submitbox:visited li{
    color: #fff;
    border-color: #fff;
@@ -214,6 +215,18 @@ a#submitbox:hover li {
    border:3px solid #ccc;
    width: 180px;
    padding: 10px 0;
+}
+
+a.button:link {
+
+}
+
+a.button:visited {
+
+}
+
+a.button:hover {
+
 }
 
 /*End Next or Cancel buttons*/
